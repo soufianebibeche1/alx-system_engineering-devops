@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# This script displays numbers from 1 to 20 and special messages for certain iterations
+# This script displays numbers from 1 to 20 with special messages for certain iterations
 
 count=1
 
-while [ $count -le 20 ]; do
+while [ "$count" -le 20 ]; do
     case $count in
         4)
             echo "bad luck from China"
@@ -15,7 +15,7 @@ while [ $count -le 20 ]; do
             echo "bad luck from Italy"
             ;;
         *)
-            echo $count
+            echo "$count"
             ;;
     esac
 
