@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 # This script displays numbers from 1 to 20 with special messages for certain iterations
 
+# Counter variable
 count=1
 
+# Using a while loop to iterate from 1 to 20
 while [ "$count" -le 20 ]; do
+    # Using a case statement to display messages based on the iteration number
     case "$count" in
         4)
             echo "bad luck from China"
