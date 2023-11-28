@@ -1,4 +1,2 @@
 #!/usr/bin/env ruby
-
-arg = ARGV[0]
-puts arg.scan(/School/).join("$") + "$"
+puts ARGV[0].scan(/School/).join
