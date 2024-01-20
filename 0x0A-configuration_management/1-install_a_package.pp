@@ -1,6 +1,5 @@
-# A manifest that installs flask from pip3
-
-package {'flask':
-  ensure   => '2.1.0',
-  provider => 'pip3',
+# Installs a package puppet-lint
+package { 'puppet-lint':
+  ensure   => '2.1.1',
+  provider => 'gem',
 }
