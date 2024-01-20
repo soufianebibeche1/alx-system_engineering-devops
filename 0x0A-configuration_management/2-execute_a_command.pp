@@ -1,7 +1,5 @@
-# File: 2-execute_a_command.pp
-# Execute a command to kill the process named killmenow
+# A manifest that executes a command
 
-exec { 'killmenow':
-  command => 'pkill -f killmenow',
-  onlyif  => 'pgrep -f killmenow',
+exec {'killproc':
+  command => '/usr/bin/pkill killmenow',
 }

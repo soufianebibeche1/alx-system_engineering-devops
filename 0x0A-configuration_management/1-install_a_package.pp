@@ -1,7 +1,6 @@
-# File: 1-install_a_package.pp
-# Install Flask package using pip3
+# A manifest that installs flask from pip3
 
-package { 'Flask':
+package {'flask':
   ensure   => '2.1.0',
   provider => 'pip3',
 }
