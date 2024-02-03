@@ -13,4 +13,4 @@ else
 	echo -n "The subdomain $i "
 	dig "$i.$1" | grep -A1 'ANSWER SECTION:' | grep -v 'ANSWER SECTION:' | awk '{print "is a", $4, "record and points to", $5}'
     done
-fii
+fi
