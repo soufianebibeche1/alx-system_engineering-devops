@@ -1,4 +1,4 @@
-# Using strace, find out why Apache is returning a 500 error. Once you find
+# Puppet manifest to fix Apache 500 error
 # the issue,fix it and then automate it using Puppet
 
 exec { 'internal-server':
