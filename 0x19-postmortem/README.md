@@ -1,4 +1,4 @@
-#Postmortem: Website Responsiveness Issue
+# Postmortem: Website Responsiveness Issue
 
 ## Issue Summary:
 - **Duration:** March 7, 2024, 10:00 AM to March 7, 2024, 12:00 PM (UTC)
