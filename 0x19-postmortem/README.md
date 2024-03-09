@@ -30,7 +30,7 @@
 
 This postmortem report outlines the incident, its timeline, root cause analysis, resolution steps, and corrective measures to prevent similar website responsiveness issues in the future. By implementing these measures, we aim to improve the overall user experience and maintain website performance standards.
 
-[GitHub Repository](https://github.com/soufianebibeche1/alx-system_engineering-devops/0x19-postmortem/README.md)
+[GitHub Repository](https://github.com/soufianebibeche1/alx-system_engineering-devops/tree/master/0x19-postmortem/README.md)
 
 ---
 This postmortem report provides a detailed analysis of the website responsiveness issue caused by problems with Bootstrap and CSS inclusion tags in the HTML. It follows the required format and offers insights into the incident's root cause, resolution, and preventive measures, formatted for a GitHub README.md file.
